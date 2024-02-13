@@ -1,5 +1,8 @@
 # Unity MainThread Job
 
+> [!IMPORTANT]
+> Works in release builds only!
+
 ```
 [BurstCompile]
 public struct Job1 : IJob {
