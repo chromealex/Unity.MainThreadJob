@@ -1,7 +1,7 @@
 # Unity MainThread Job
 
 > [!IMPORTANT]
-> Works in release builds only!
+> Works in release builds only! In development builds or in Unity Editor this code call Complete on your dependency and run execute method immediately instead of schedule.
 
 ```
 [BurstCompile]
